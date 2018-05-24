@@ -1,0 +1,38 @@
+/* Navigation styles */
+
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5em;
+  padding: .5em .4em;
+  @include bg-gradient-teal;
+  position: relative;
+  @include round-corners;
+  @include box-shadow-only;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-size: .85em;
+  color: $orangy;
+  position: relative;
+  transition: position .45s, color .2s;
+  &:hover {
+    text-decoration: underline;
+    top: -.3em;
+    color: #eee;
+  }
+}
+
+/* Responsive */
+@media only screen and (min-width: 501px) {
+  .main-nav a {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .main-nav a {
+    font-size: 1.2em;
+  }
+}

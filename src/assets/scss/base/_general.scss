@@ -1,0 +1,25 @@
+/* General Styles */
+html {
+  height: 100%;
+}
+
+body {
+  @include bg-gradient-neutral;
+  color: $teal-d30;
+  height: 100%;
+  color: $teal-d15;
+}
+
+.main-wrapper {
+  width: 88%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: $orangy-d10;
+  &:hover{
+    color: $orangy-l15;
+  }
+}

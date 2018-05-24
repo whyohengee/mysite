@@ -1,0 +1,29 @@
+.header {
+  margin: 2.25em 0 2em;
+  animation: slideRight .7s;
+}
+
+.main-header-link {
+  // color: rgba(0, 0, 0, .75);
+  color: $teal-d15;
+  text-decoration: none;
+}
+
+.header h1 {
+  font-size: 1.999em;
+  margin: 0;
+  text-decoration: underline;
+  & span {
+    display: inline-block;
+    font-size: .707rem;
+    padding-left: 1em;
+    // text-decoration: underline;
+    vertical-align: bottom;
+  }
+}
+
+.header p {
+  margin: 0;
+  font-size: .707em;
+  grid-column: 2/3;
+}

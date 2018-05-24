@@ -1,0 +1,11 @@
+.social-icons {
+  width: 88%;
+  margin: 2em auto;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  & i {
+    font-size: 3em;
+    color: orange;
+  }
+}

@@ -1,0 +1,62 @@
+/* Work page styles */
+
+.workpageWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.workBlock {
+  flex: 1;
+  min-width: 300px;
+  animation: slideUp .8s;
+  margin-top: 3.5em;
+  @include tile;
+  border-radius: 5px;
+}
+
+.workBlock__image {
+  width: 100%;
+  height: auto;
+  padding: .25em;
+}
+
+.workBlock__info {
+  padding: .45em;
+}
+
+.workBlock__title {
+  font-size: 1.25em;
+  border-top: .5px #000;
+  margin-top: 1em;
+}
+
+.workBlock__description {
+  min-height: 15.5em;
+}
+
+.workBlock__tech {
+  font-size: .8em;
+  @include bg-gradient-teal;
+  color: $orangy;
+  padding: 0 .4em;
+  text-align: right;
+}
+
+.workBlock__link {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+}
+
+
+/* Responsive */
+@media only screen and (min-width: 551px) {
+  .workBlock {
+    margin: 15px 15px 40px;
+    flex: 1;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

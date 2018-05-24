@@ -1,0 +1,71 @@
+@mixin clearfix {
+  display: inline-block;
+  &:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
+@mixin bg-gradient-teal {
+  background: linear-gradient($teal-d15, $teal-d10) no-repeat;
+}
+
+@mixin bg-gradient-neutral {
+  background-color: linear-gradient($neutral-f7, $neutral-s15) no-repeat;
+}
+
+/* .outline is for debugging */
+@mixin outline {
+  outline: 1px solid red;
+}
+
+/* styles for tile effect*/
+@mixin tile {
+  box-shadow: 2px 2px 4px 2px $teal-d15;
+  border: 2px solid $teal-d30;
+}
+
+@mixin box-shadow-only {
+  box-shadow: 2px 2px 4px 2px $teal-d15;
+}
+
+@mixin round-corners {
+  border-radius: 5px;
+}
+
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

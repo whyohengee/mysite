@@ -1,0 +1,117 @@
+/* Blog posts landing page and individual posts styles */
+
+
+/* All blog posts page styles */
+
+.allPostsWrapper {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.allPosts__total {
+  padding: 1.5em 0 0;
+  margin-bottom: 0;
+}
+
+.allPosts__description {
+  margin-bottom: 3.5em;
+}
+
+.allPosts__postblock {
+  margin-bottom: 4em;
+  @include tile;
+  padding: .25em .5em;
+  animation: slideUp .7s;
+  @include round-corners;
+}
+
+.allPosts__link {
+  text-decoration: none;
+}
+
+.allPosts__postblock h4 {
+  margin-bottom: 0;
+}
+
+.allPosts__date {
+  font-size: .707em;
+  text-decoration: underline;
+  font-style: italic;
+  margin: 1.15em 0;
+}
+
+.allPosts__excerpt {
+  margin-bottom: 0;
+}
+
+.allPosts__ttr {
+  font-size: .707em;
+  margin-top: 1.15em;
+  font-style: italic;
+}
+
+.allPosts__postImage {
+  display: none;
+}
+
+
+
+
+/* Single Blog post styles */
+.post-content {
+  position: relative;
+}
+
+.post-title {
+  margin-top: 1em;
+  margin-bottom: .25em;
+  // font-size: 2.5em;
+}
+
+.post-date {
+  font-size: .85em;
+  text-align: left;
+}
+
+.blog-header-image {
+  max-width: 80%;
+  margin: 2em auto;
+  & video {
+    width: 100%;
+  }
+}
+
+.post-content h2 {
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+.post-content a {
+  text-decoration: none;
+}
+
+//Resources section for each blog post
+.resources {
+  & ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    & li {
+      padding-left: 0;
+      padding-bottom: .707em;
+      margin-left: 0;
+      font-size: .707em;
+    }
+  }
+}
+
+
+
+
+/* Responsive */
+@media only screen and (min-width: 850px) {
+  .allPosts__postImage {
+    display: inline-block;
+    @include outline;
+  }
+}
