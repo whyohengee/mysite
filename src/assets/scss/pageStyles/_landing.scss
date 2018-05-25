@@ -32,7 +32,7 @@
   animation: slideUp .7s;
   @include round-corners;
   @include bg-gradient-teal;
-  @include box-shadow-only;
+  @include tile;
 }
 
 .main-nav {

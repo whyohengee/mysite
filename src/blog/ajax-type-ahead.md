@@ -1,5 +1,5 @@
 ---
-title: AJAX Type Ahead Demo
+title: AJAX type ahead demo
 date: "2017-12-16"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Reference vs. Copy with JavaScript Objects and Arrays
+title: Reference vs. Copy with JavaScript objects and arrays
 date: "2018-02-27"
 ---
 

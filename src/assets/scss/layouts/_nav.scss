@@ -8,7 +8,7 @@
   @include bg-gradient-teal;
   position: relative;
   @include round-corners;
-  @include box-shadow-only;
+  @include tile;
 }
 
 .main-nav a {

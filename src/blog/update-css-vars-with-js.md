@@ -1,5 +1,5 @@
 ---
-title: Update CSS Variables with JavaScript
+title: Update CSS variables with JavaScript
 date: "2017-12-10"
 ---
 

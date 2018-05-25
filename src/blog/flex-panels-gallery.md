@@ -1,5 +1,5 @@
 ---
-title: Flexbox Panels Gallery
+title: Flexbox panels gallery
 date: "2017-12-14"
 ---
 

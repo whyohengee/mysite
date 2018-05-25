@@ -10,12 +10,3 @@ export default() => (
 
   </div>
 );
-
-
-/* Need to think about best way to add these to footer, make it clear they're not associated w/ Social Icons */
-// <div className="menu-links">
-//   <Link to="/">Home</Link>
-//   <Link to="/work/">Work</Link>
-//   <Link to="/all-blog-posts/">Writing</Link>
-//   <Link to="/about/">About</Link>
-// </div>

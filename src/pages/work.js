@@ -70,7 +70,7 @@ export default({children}) => (
         <div className="workBlock__tech">
           <p>Design, React JS, GraphQL, SCSS</p>
         </div>
-        <a href="#" className="workBlock__link">View Project</a>
+        <a href="/" className="workBlock__link">View Project</a>
         </div>
       </div>
     </div>
@@ -86,7 +86,7 @@ export default({children}) => (
         <div className="workBlock__tech">
           <p>JavaScript</p>
         </div>
-        <a href="/writing/" className="workBlock__link">View Project</a>
+        <a href="/all-blog-posts/" className="workBlock__link">View Project</a>
         </div>
       </div>
     </div>

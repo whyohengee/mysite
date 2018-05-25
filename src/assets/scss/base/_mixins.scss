@@ -24,12 +24,8 @@
 
 /* styles for tile effect*/
 @mixin tile {
-  box-shadow: 2px 2px 4px 2px $teal-d15;
-  border: 2px solid $teal-d30;
-}
-
-@mixin box-shadow-only {
-  box-shadow: 2px 2px 4px 2px $teal-d15;
+  box-shadow: 2px 2px 4px 2px $teal-d10;
+  // border: 2px solid $teal-d30;
 }
 
 @mixin round-corners {

@@ -1,5 +1,5 @@
 ---
-title: Key Sequence Detection
+title: Key sequence detection
 date: "2018-02-10"
 ---
 

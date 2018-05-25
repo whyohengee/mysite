@@ -1,5 +1,5 @@
 ---
-title: Creating pages from Markdown Files in Gatsby JS
+title: Creating pages from Markdown files in Gatsby JS
 date: 2018-05-10
 ---
 

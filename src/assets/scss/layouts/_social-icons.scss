@@ -4,8 +4,19 @@
   display: flex;
   flex: 1;
   justify-content: space-between;
+  & div {
+    padding: 1em 0;
+  }
   & i {
-    font-size: 3em;
+    font-size: 2em;
     color: orange;
+  }
+}
+
+
+/* Responsive */
+@media only screen and (min-width: 550px) {
+  .social-icons i {
+    font-size: 3em;
   }
 }

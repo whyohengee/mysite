@@ -25,8 +25,3 @@ export default ({children, data}) => (
   <div>{children}</div>
   </div>
 );
-
-
-// <Link to="/work/">Work</Link>
-// <Link to="/all-blog-posts/">Writing</Link>
-// <Link to="/about/">About</Link>

@@ -1,5 +1,5 @@
 ---
-title: Custom HTML5 Video Player
+title: Custom HTML5 video player
 date: 2018-02-01
 ---
 
