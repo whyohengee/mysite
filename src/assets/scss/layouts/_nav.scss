@@ -14,13 +14,13 @@
 .main-nav a {
   text-decoration: none;
   font-size: .85em;
-  color: $orangy;
+  color: $orangy-l5;
   position: relative;
   transition: position .45s, color .2s;
   &:hover {
-    text-decoration: underline;
     top: -.3em;
-    color: #eee;
+    color: $orangy-l15;
+    // color: #eee;
   }
 }
 

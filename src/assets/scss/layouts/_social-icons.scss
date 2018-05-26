@@ -7,9 +7,18 @@
   & div {
     padding: 1em 0;
   }
+  & a {
+    position: relative;
+    color: $orangy-l5;
+    transition: position .45s, color .2s;
+    &:hover {
+      top: -.3em;
+      color: $orangy-l15;
+    }
+  }
   & i {
     font-size: 2em;
-    color: orange;
+    // color: $orangy;
   }
 }
 
