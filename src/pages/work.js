@@ -65,7 +65,7 @@ export default({children}) => (
         <h3 className="workBlock__title">My Site</h3>
         <div className="workBlock__blurb">
           <div className="workBlock__description">
-          I created my site using the Gatsby JS static site generator, which uses React JS. I created my own components, layouts, and pages, and used source and transform plugins to pullin in Markdown files with GraphQL queries which converted to static pages. I also did the responsive design.
+          I created my site using the Gatsby JS static site generator, which uses React JS. I created my own components, layouts, and pages, and used source and transform plugins to pull in Markdown files with GraphQL queries which converted to static pages. I also did the responsive design.
           </div>
         <div className="workBlock__tech">
           <p>Design, React JS, GraphQL, SCSS</p>
