@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 import MainNav from '../components/MainNav';
 import Header from '../components/Header';
@@ -9,8 +10,11 @@ import styles from '../assets/scss/main.scss';
 
 export default ({children, data}) => (
   <div className="landingPage__wrapper">
-
-
+  <Helmet>
+      <title>Yong C. Lee</title>
+      <meta name="description" content="Yong C. Lee's portfolio site"/>
+      <meta name="keywords" content="portfolio, frontend, frontend web development, web development, javascript, scss, css, sass, html"/>
+    </Helmet>
   <MainNav className="landingPage__nav"></MainNav>
 
 
