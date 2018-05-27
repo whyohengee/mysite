@@ -9,7 +9,7 @@ date: "2017-12-12"
 
 
 
-If you've worked with data, you've worked with [JavaScript Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Although I had some familiarity with `Array.reduce()`, `Array.map()`, and `Array.filter()`, there was a lot more ways to work with Arrays than I knew. [Wes Bos](https://twitter.com/wesbos/) has a great course, [JavaScript 30](https://javascript30/), that goes through JS fundamentals without using any frameworks or libraries. These exercises were part of the course.
+If you've worked with data in JavaScript, you've almost definitely worked with [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Although I had some familiarity with `Array.reduce()`, `Array.map()`, and `Array.filter()`, there was a lot more ways to work with Arrays than I knew. [Wes Bos](https://twitter.com/wesbos/) has a great course, [JavaScript 30](https://javascript30/), that goes through JS fundamentals without using any frameworks or libraries. These exercises were part of the course.
 
 As always, I like to blog it out to get it deeper into my brain, and to do Future Me a favor in case Present Me forgets (which he always does).
 
