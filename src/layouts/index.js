@@ -4,7 +4,8 @@ import Header from '../components/Header';
 import MainNav from '../components/MainNav';
 import Footer from '../components/Footer';
 // import {rhythm} from '../utils/typography';
-require("prismjs/themes/prism-coy.css");
+// require("prismjs/themes/prism-coy.css");
+require('../assets/scss/base/prism-coy.css');
 import styles from '../assets/scss/main.scss';
 
 

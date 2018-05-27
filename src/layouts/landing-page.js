@@ -3,7 +3,8 @@ import Link from 'gatsby-link';
 import MainNav from '../components/MainNav';
 import Header from '../components/Header';
 import SocialIcons from '../components/SocialIcons';
-require('prismjs/themes/prism-coy.css');
+// require('prismjs/themes/prism-coy.css');
+require('../assets/scss/base/prism-coy.css');
 import styles from '../assets/scss/main.scss';
 
 export default ({children, data}) => (
