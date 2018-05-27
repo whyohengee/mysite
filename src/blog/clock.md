@@ -4,7 +4,7 @@ date: "2017-12-08"
 ---
 
 <div class="blog-header-image">
-  <video src="https://media.giphy.com/media/1TPiKCuITvuRW/giphy.mp4" type="video/mp4" autoplay="true" muted="true" loop="true"></video>
+  <video src="https://media.giphy.com/media/xUySTEJYS5F1Cayg92/source.mp4" type="video/mp4" autoplay="true" muted="true" loop="true"></video>
 </div>
 
 
