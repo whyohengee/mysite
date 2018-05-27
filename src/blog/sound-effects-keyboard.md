@@ -192,7 +192,7 @@ Now, when the key is pressed down, the style for that `<div>` will change. Once 
 <div class="resources">
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">JavaScript Template Literals</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">HTML5 <audio> Element</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">HTML5 &lt;audio&gt; Element</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">HTML5 data- Attributes</a></li>
   </ul>
 </div>
