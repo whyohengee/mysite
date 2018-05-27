@@ -16,7 +16,7 @@ I want to write a post on understanding closures. Closures are a topic I had a t
 
 Here are some things that really helped me understand (the big one being that closures are not the same thing as scope...I've read that so many times, but it finally clicked for me):
 
-1. Think of closures as functions w/ preserved data. (eh...this was kinda helpful, but not greatly).
+1. Think of closures as functions with preserved data. (eh...this was kinda helpful, but not greatly).
   https://www.youtube.com/watch?v=71AtaJpJHw0
 2. Closures are bubbles. (Getting closer...)
   https://www.youtube.com/watch?v=CQqwU2Ixu-U
@@ -92,7 +92,7 @@ console.log(`example increment, ${c1} ${c2} ${c3}`); //1 2 3
 
 The reason why this clicked for me is this:
 
-We're defining `myFunction` within `createCounter`. When I first read this I was like, "Why return a function w/in a function?" Because this:
+We're defining `myFunction` within `createCounter`. When I first read this I was like, "Why return a function within a function?" Because this:
 
 When we assign the return value of `createCounter` to the new variable increment, what we're doing is returning the function defintion of `myFunction` *and* the variable and value of counter...This combination of defintion and variables within scope is the closure. The closure *remembers* its lexical scope even when that function is executing outside its lexical scope.
 
@@ -114,7 +114,7 @@ const c3 = createCounter();
 console.log(`example increment, ${c1} ${c2} ${c3}`); //1 1 1
 ```
 
-We want to retain the value of `counter`, so we create a new function definition *within* `createCounter()`. This creates a new closure—`myFunction()`—which possesses the scope of `createCounter()`...iow, it has access to the variables within its own function definition, *plus* the variables within its parent function. So when a function is passed and it is called, a new execution context will be created for it. Before checking its local context (ie, parameters first, then locally declared variables w/in the function definition) and the global context, it will check its *backpack* (the closure) for variable values.
+We want to retain the value of `counter`, so we create a new function definition *within* `createCounter()`. This creates a new closure—`myFunction()`—which possesses the scope of `createCounter()`...iow, it has access to the variables within its own function definition, *plus* the variables within its parent function. So when a function is passed and it is called, a new execution context will be created for it. Before checking its local context (ie, parameters first, then locally declared variables within the function definition) and the global context, it will check its *backpack* (the closure) for variable values.
 
 
 ## Tackling partials
@@ -145,7 +145,7 @@ const addThree = addX(3);
 ```
 We're calling `addX()` and assigning that function definition to the variable `addThree`. But we're also passing in a parameter, 3.
 
-What's going on w/ 3? Where does it go? If you:
+What's going on with 3? Where does it go? If you:
 ```js
 console.log(`${addThree}`); //function (n) {return n + x;}
 ```

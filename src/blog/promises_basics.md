@@ -139,7 +139,7 @@ const willIGetANewPhone = new Promise( (resolve, reject) => {
   }
 });
 
-//Create another Promise object, but this is w/in another function & will be chained in Promise consumption
+//Create another Promise object, but this is within another function & will be chained in Promise consumption
 function showOff(phone) {
   let msg = ` hey friend check out my new ${phone}`;
   console.log(msg);
