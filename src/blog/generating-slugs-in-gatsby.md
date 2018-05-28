@@ -199,7 +199,7 @@ And we can view this new field with this query:
 
 Ok, so that's how we get the slugs!
 
-Next up is [creating the pages from our markdown files](creating-pages-from-markdown-files-in-gatsby).
+Next up is [creating the pages from our markdown files](https://yongclee.com/creating-pages-from-markdown-files-in-gatsby).
 
 
 ## References
