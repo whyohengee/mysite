@@ -1,0 +1,42 @@
+[
+  {
+    "title": "CNDLS Website",
+    "description": "I used to work at a teaching and learning center at Georgetown University, and this is their main site, built in Django. I wrote templates in HTML/CSS with Bootstrap, and also wrote Django views in Python for dynamic data that populated the templates.",
+    "tech": "CSS, Bootstrap, JavaScript, Django/Python",
+    "imgClass": "workBlock__image",
+    "alt": "Screencap of CNDLS website",
+    "link": "https://cndls.georgetown.edu"
+  },
+  {
+    "title": "The Teaching Commons",
+    "description": "This site is a collection of resources involving the Scholarship of Teaching and Learning built using the Flask static site generator. I contributed to the design for this site, along with writing templates for the pages.",
+    "tech": "Design, CSS, Bootstrap, Flask/Python",
+    "src": "../assets/img/teachingcommons_screencap.png",
+    "alt": "Screencap of Teaching Commons",
+    "link": "https://commons.georgetown.edu/teaching"
+  },
+  {
+    "title": "TLISI",
+    "description": "This is an event site for an annual conference aroud Teaching and Learning that was built in WordPress. I worked with a designer to create a child theme for this site, taking their designs and writing the CSS and PHP to create the site pages.",
+    "tech": "CSS, JavaScript, WordPress/PHP",
+    "src": "../assets/img/tlisi_screencap.png",
+    "alt": "Screencap of TLISI site",
+    "link": "https://tlisi.georgetown.edu"
+  },
+  {
+    "title": "My Site",
+    "description": "This is an event site for an annual conference aroud Teaching and Learning that was built in WordPress. I worked with a designer to create a child theme for this site, taking their designs and writing the CSS and PHP to create the site pages.",
+    "tech": "Design, Sass, React JS, GraphQL, SCSS",
+    "src": "../assets/img/great_gatsby.png",
+    "alt": "Screencap of Great Gatsby",
+    "link": "https://yongclee.com"
+  },
+  {
+    "title": "JavaScript Learning",
+    "description": "With all of the new frameworks and approaches that exist, I try to focus as much as I can on the fundamentals of JavaScript. I'm going through Wes Bos's JavaScript 30 course, which teaches vanilla JS solutions through fun projects. Check out my blog for my writeups.",
+    "tech": "JavaScript",
+    "src": "../assets/img/js_projects.png",
+    "alt": "Screencap of JavaScript gears",
+    "link": "https://yongclee.com/all-blog-posts"
+  }
+]

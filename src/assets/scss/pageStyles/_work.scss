@@ -17,8 +17,35 @@
 
 .workBlock__image {
   width: 100%;
+  min-height: 230px;
   height: auto;
   padding: .25em;
+}
+
+.workBlock .imgSrc {
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.workBlock:first-child .imgSrc {
+  background-image: url(../img/cndls_screencap.png);
+}
+
+.workBlock:nth-child(2) .imgSrc {
+  background-image: url(../img/teachingcommons_screencap.png);
+}
+
+.workBlock:nth-child(3) .imgSrc {
+  background-image: url(../img/tlisi_screencap.png);
+}
+
+.workBlock:nth-child(4) .imgSrc {
+  background-image: url(../img/great_gatsby.jpg);
+}
+
+.workBlock:nth-child(5) .imgSrc {
+  background-image: url(../img/js_projects.png);
 }
 
 .workBlock__info {
@@ -32,14 +59,14 @@
 }
 
 .workBlock__description {
-  min-height: 15.5em;
+  min-height: 15em;
 }
 
 .workBlock__tech {
   font-size: .8em;
   @include bg-gradient-teal;
   color: $orangy;
-  padding: 0 .4em;
+  padding: 0 .4rem;
   text-align: right;
 }
 
