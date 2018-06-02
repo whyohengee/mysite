@@ -15,7 +15,7 @@ In this post, I'm diving into how to programmatically create the pages from thes
 
 Like the last post, I'm following along with the excellent [Gatsby JS tutorial](https://www.gatsbyjs.org/tutorial/) and just filling in details that might help future me or anyone else.
 
-There are some steps that are needed first, so reference that last post [add link] before diving in here.
+There are some steps that are needed first, so reference that last post [generating-slugs-in-gatsby] before diving in here.
 
 
 ##Implementing the `createPages` API
@@ -35,9 +35,9 @@ We're passing in an object with two properties to this exported function: [`grap
 exports.createPages = ({graphql, boundActionCreators}) => {};
 ```
 
-The `graphql` argument allows us to query for the Markdown slugs we created in the last step[add link], and `boundActionCreators` is a collection of functions that help us manipulate state on our site...from this collection, we'll be using a function called [`createPage`](https://www.gatsbyjs.org/docs/bound-action-creators/#createPage), but more on that in a sec.
+The `graphql` argument allows us to query for the Markdown slugs we created in the last step, and `boundActionCreators` is a collection of functions that help us manipulate state on our site...from this collection, we'll be using a function called [`createPage`](https://www.gatsbyjs.org/docs/bound-action-creators/#createPage), but more on that in a sec.
 
-Now in the exported function, we're going to be returning a Promise object[add link to Promises blog post here] that will be resolved when a `graphql` query is successfully run. We're querying for all the slugs for our Markdown nodes. When the query is successfully run, we're going to log the results to the console using [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)...here's what that looks like:
+Now in the exported function, we're going to be returning a Promise object[promises-basics] that will be resolved when a `graphql` query is successfully run. We're querying for all the slugs for our Markdown nodes. When the query is successfully run, we're going to log the results to the console using [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)...here's what that looks like:
 
 
 ```jsx
@@ -161,7 +161,7 @@ We're passing a page object into the `createPage` method with three properties:
 
 * The path for the page, which will be the slug
 * The template component for the page, which will be the `blog-post.js` template component we just created (note: this is where we're using `path`)
-* The slug for the page, which is the Markdown node's slug (details in my last post)[add link here]. That comment—that `Data passed to context is available in page queries as GraphQL vars`—is going to be important in our next step. Just hang on.
+* The slug for the page, which is the Markdown node's slug (details in my last post)[generating-slugs-in gatsby]. That comment—that `Data passed to context is available in page queries as GraphQL vars`—is going to be important in our next step. Just hang on.
 
 After restarting the dev server, when you navigate to any of the slugs, you'll see the returned `<div>` from our `blog-post.js` template component.
 
